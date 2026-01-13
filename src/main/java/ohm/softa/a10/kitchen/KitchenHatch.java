@@ -11,6 +11,10 @@ import ohm.softa.a10.model.Order;
 
 public interface KitchenHatch {
 
+	public void printDishes();
+
+    public void printOrders();
+
 	/**
 	 * Get the count how many meals can be placed in the hatch
 	 * @return max count
